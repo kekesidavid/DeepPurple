@@ -6,6 +6,11 @@
 
 ### Tagok:
 
-Sándor Mátyás [NimbleCapricorn]
-Király Zoltán [zekirlay]
-Kékesi Dávid [kiskekes]
+#### Sándor Mátyás (NimbleCapricorn)
+##### Feladatai:
+
+#### Király Zoltán (zekirlay)
+##### Feladatai:
+
+Kékesi Dávid (kiskekes)
+##### Feladatai:
