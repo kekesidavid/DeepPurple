@@ -9,8 +9,10 @@
 #### Sándor Mátyás (NimbleCapricorn)
 ##### Feladatai:
 
+
 #### Király Zoltán (zekirlay)
 ##### Feladatai:
 
-Kékesi Dávid (kiskekes)
+
+#### Kékesi Dávid (kiskekes)
 ##### Feladatai:
