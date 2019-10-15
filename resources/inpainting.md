@@ -1,4 +1,4 @@
-#Papers on Image Inpainting
+# Papers on Image Inpainting
 
 ### Image Inpainting via Generative Multi-column Convolutional Neural Networks
 
