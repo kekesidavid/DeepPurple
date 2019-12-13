@@ -1,1 +1,1 @@
-weights.30-1.64.h5 file size exceeds the limit of github. It can be downloaded from [here](https://drive.google.com/file/d/1PSDK2Ltz0cGP7qq3kbc3U1E4LkDoDfb7/view?usp=sharing)
+weights.95-0.90.h5 file size exceeds the limit of github. It can be downloaded from [here](https://drive.google.com/open?id=1c4qXxUBBKn4dqwr7T9zLfotWkv5BJWoL)
