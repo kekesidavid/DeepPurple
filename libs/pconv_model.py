@@ -243,7 +243,6 @@ class PConvUnet(object):
 
     def fit_generator(self, generator, *args, **kwargs):
         """Fit the U-Net to a (images, targets) generator
-
         Args:
             generator (generator): generator supplying input image & mask, as well as targets.
             *args: arguments to be passed to fit_generator
