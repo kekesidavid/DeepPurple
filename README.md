@@ -3,11 +3,12 @@
 >Image inpainting is the process of restorating a missing, undesired or damaged part of an image. Initially, the
 technical faults of early cameras (scratches, stains) were corrected by experts while the development of photos. 
 Although nowadays the manipulation of images happens digitally, the proper way of inpainting still requires 
-skilled hands. Many effort have been made to solve the automatization of this method. In this paper,we 
+skilled hands. Many effort have been made to solve the automatization of this method. In this paper we 
 represent our work on applying a model based on partial convolutions to fill missing parts of images with 
 natural looking content.
 
 ## Team
+![Logo](https://github.com/kekesidavid/DeepPurple/blob/master/DeepPurple.png)
 
 ### Király Zoltán [G24TCR]:
 * adatok előkészítése (méretezés, maszkolás)
