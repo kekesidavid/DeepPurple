@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2019.12.8)  13 DEC 2019 23:51
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2019.12.8)  15 DEC 2019 18:50
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -548,10 +548,34 @@ Package babel Info: Making ` an active character on input line 2801.
 (/usr/share/texlive/texmf-dist/tex/latex/placeins/placeins.sty
 Package: placeins 2005/04/18  v 2.2
 )
-(./documentation.aux
+(/usr/share/texlive/texmf-dist/tex/latex/subfigure/subfigure.sty
+Package: subfigure 2002/03/15 v2.1.5 subfigure package
+\subfigtopskip=\skip47
+\subfigcapskip=\skip48
+\subfigcaptopadj=\dimen138
+\subfigbottomskip=\skip49
+\subfigcapmargin=\dimen139
+\subfiglabelskip=\skip50
+\c@subfigure=\count110
+\c@lofdepth=\count111
+\c@subtable=\count112
+\c@lotdepth=\count113
 
-LaTeX Warning: Label `' multiply defined.
-
+****************************************
+* Local config file subfigure.cfg used *
+****************************************
+(/usr/share/texlive/texmf-dist/tex/latex/subfigure/subfigure.cfg)
+\subfig@top=\skip51
+\subfig@bottom=\skip52
+)
+(/usr/share/texlive/texmf-dist/tex/latex/float/float.sty
+Package: float 2001/11/08 v1.3d Float enhancements (AL)
+\c@float@type=\count114
+\float@exts=\toks23
+\float@box=\box30
+\@float@everytoks=\toks24
+\@floatcapt=\box31
+) (./documentation.aux
 
 LaTeX Warning: Label `' multiply defined.
 
@@ -567,33 +591,33 @@ LaTeX Warning: Label `' multiply defined.
 )
 \openout1 = `documentation.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 10.
-LaTeX Font Info:    ... okay on input line 10.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 10.
-LaTeX Font Info:    ... okay on input line 10.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 10.
-LaTeX Font Info:    ... okay on input line 10.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 10.
-LaTeX Font Info:    ... okay on input line 10.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 10.
-LaTeX Font Info:    ... okay on input line 10.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 10.
-LaTeX Font Info:    ... okay on input line 10.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 12.
+LaTeX Font Info:    ... okay on input line 12.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 12.
+LaTeX Font Info:    ... okay on input line 12.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 12.
+LaTeX Font Info:    ... okay on input line 12.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 12.
+LaTeX Font Info:    ... okay on input line 12.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 12.
+LaTeX Font Info:    ... okay on input line 12.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 12.
+LaTeX Font Info:    ... okay on input line 12.
 
 -- Lines per column: 56 (exact).
 (/usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count110
-\scratchdimen=\dimen138
-\scratchbox=\box30
-\nofMPsegments=\count111
-\nofMParguments=\count112
-\everyMPshowfont=\toks23
-\MPscratchCnt=\count113
-\MPscratchDim=\dimen139
-\MPnumerator=\count114
-\makeMPintoPDFobject=\count115
-\everyMPtoPDFconversion=\toks24
+\scratchcounter=\count115
+\scratchdimen=\dimen140
+\scratchbox=\box32
+\nofMPsegments=\count116
+\nofMParguments=\count117
+\everyMPshowfont=\toks25
+\MPscratchCnt=\count118
+\MPscratchDim=\dimen141
+\MPnumerator=\count119
+\makeMPintoPDFobject=\count120
+\everyMPtoPDFconversion=\toks26
 ) (/usr/share/texlive/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
 Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
 
@@ -655,66 +679,86 @@ LaTeX Warning: Please use \usepackage{t1enc} with
                \usepackage[hungarian]{babel}, to get accented chars hyphenated.
 
 
-<figures/preparation.png, id=1, 513.92pt x 611.28375pt>
-File: figures/preparation.png Graphic file (type png)
-<use figures/preparation.png>
-Package pdftex.def Info: figures/preparation.png  used on input line 74.
-(pdftex.def)             Requested size: 227.62204pt x 270.74722pt.
-[1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}
-
-
-]
-<figures/vae-gaussian.png, id=12, 1187.43625pt x 550.055pt>
+<figures/vae-gaussian.png, id=1, 1187.43625pt x 550.055pt>
 File: figures/vae-gaussian.png Graphic file (type png)
 <use figures/vae-gaussian.png>
-Package pdftex.def Info: figures/vae-gaussian.png  used on input line 85.
+Package pdftex.def Info: figures/vae-gaussian.png  used on input line 70.
 (pdftex.def)             Requested size: 227.62204pt x 105.43477pt.
-<figures/GAN_basic_flow.png, id=14, 652.4375pt x 279.0425pt>
+<figures/GAN_basic_flow.png, id=3, 652.4375pt x 279.0425pt>
 File: figures/GAN_basic_flow.png Graphic file (type png)
 <use figures/GAN_basic_flow.png>
-Package pdftex.def Info: figures/GAN_basic_flow.png  used on input line 90.
+Package pdftex.def Info: figures/GAN_basic_flow.png  used on input line 75.
 (pdftex.def)             Requested size: 227.62204pt x 97.35124pt.
-<figures/err_1.png, id=15, 267.399pt x 67.014pt>
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}
+
+
+ <./figures/vae-gaussian.png>]
+Overfull \hbox (29.28584pt too wide) in paragraph at lines 158--159
+ [][] 
+ []
+
+<figures/err_1.png, id=14, 267.399pt x 67.014pt>
 File: figures/err_1.png Graphic file (type png)
 <use figures/err_1.png>
-Package pdftex.def Info: figures/err_1.png  used on input line 130.
+Package pdftex.def Info: figures/err_1.png  used on input line 168.
 (pdftex.def)             Requested size: 227.62204pt x 57.046pt.
-<figures/err_2.png, id=16, 256.23pt x 64.0575pt>
+<figures/err_2.png, id=15, 256.23pt x 64.0575pt>
 File: figures/err_2.png Graphic file (type png)
 <use figures/err_2.png>
-Package pdftex.def Info: figures/err_2.png  used on input line 135.
+Package pdftex.def Info: figures/err_2.png  used on input line 173.
 (pdftex.def)             Requested size: 227.62204pt x 56.90735pt.
-<figures/err_3.png, id=17, 251.3025pt x 62.7435pt>
+<figures/err_3.png, id=16, 251.3025pt x 62.7435pt>
 File: figures/err_3.png Graphic file (type png)
 <use figures/err_3.png>
-Package pdftex.def Info: figures/err_3.png  used on input line 140.
+Package pdftex.def Info: figures/err_3.png  used on input line 178.
 (pdftex.def)             Requested size: 227.62204pt x 56.83145pt.
- [2 <./figures/preparation.png> <./figures/vae-gaussian.png> <./figures/GAN_bas
-ic_flow.png (PNG copy)>]
-<figures/result_1.png, id=28, 1445.4pt x 361.35pt>
+
+Underfull \vbox (badness 1275) has occurred while \output is active []
+
+ [2 <./figures/GAN_basic_flow.png (PNG copy)> <./figures/err_1.png> <./figures/
+err_2.png>]
+<figures/preparation.png, id=28, 513.92pt x 611.28375pt>
+File: figures/preparation.png Graphic file (type png)
+<use figures/preparation.png>
+Package pdftex.def Info: figures/preparation.png  used on input line 196.
+(pdftex.def)             Requested size: 227.62204pt x 270.74722pt.
+<figures/loss_change.png, id=29, 1266.7325pt x 466.74374pt>
+File: figures/loss_change.png Graphic file (type png)
+<use figures/loss_change.png>
+Package pdftex.def Info: figures/loss_change.png  used on input line 208.
+(pdftex.def)             Requested size: 227.62204pt x 83.8678pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [3 <./figures/err_3.png> <./figures/preparation.png> <./figures/loss_change.pn
+g>]
+<figures/result_1.png, id=33, 1445.4pt x 361.35pt>
 File: figures/result_1.png Graphic file (type png)
 <use figures/result_1.png>
-Package pdftex.def Info: figures/result_1.png  used on input line 151.
+Package pdftex.def Info: figures/result_1.png  used on input line 216.
 (pdftex.def)             Requested size: 227.62204pt x 56.90189pt.
-<figures/result_2.png, id=29, 1445.4pt x 361.35pt>
+<figures/result_2.png, id=34, 1445.4pt x 361.35pt>
 File: figures/result_2.png Graphic file (type png)
 <use figures/result_2.png>
-Package pdftex.def Info: figures/result_2.png  used on input line 156.
+Package pdftex.def Info: figures/result_2.png  used on input line 221.
 (pdftex.def)             Requested size: 227.62204pt x 56.90189pt.
-<figures/result_3.png, id=30, 1445.4pt x 361.35pt>
+<figures/result_3.png, id=35, 1445.4pt x 361.35pt>
 File: figures/result_3.png Graphic file (type png)
 <use figures/result_3.png>
-Package pdftex.def Info: figures/result_3.png  used on input line 161.
+Package pdftex.def Info: figures/result_3.png  used on input line 226.
 (pdftex.def)             Requested size: 227.62204pt x 56.90189pt.
-<figures/result_4.png, id=31, 1445.4pt x 361.35pt>
+<figures/result_4.png, id=36, 1445.4pt x 361.35pt>
 File: figures/result_4.png Graphic file (type png)
 <use figures/result_4.png>
-Package pdftex.def Info: figures/result_4.png  used on input line 166.
+Package pdftex.def Info: figures/result_4.png  used on input line 231.
 (pdftex.def)             Requested size: 227.62204pt x 56.90189pt.
-<figures/result_5.png, id=32, 1445.4pt x 361.35pt>
+<figures/result_5.png, id=37, 1445.4pt x 361.35pt>
 File: figures/result_5.png Graphic file (type png)
 <use figures/result_5.png>
-Package pdftex.def Info: figures/result_5.png  used on input line 171.
+Package pdftex.def Info: figures/result_5.png  used on input line 236.
 (pdftex.def)             Requested size: 227.62204pt x 56.90189pt.
 
 
@@ -728,21 +772,20 @@ Before submitting the final camera ready copy, remember to:
  uses only Type 1 fonts and that every step in the generation
  process uses the appropriate paper size.
 
-[3 <./figures/err_1.png> <./figures/err_2.png> <./figures/err_3.png> <./figures
-/result_1.png> <./figures/result_2.png> <./figures/result_3.png> <./figures/res
-ult_4.png> <./figures/result_5.png>] (./documentation.aux)
+[4 <./figures/result_1.png> <./figures/result_2.png> <./figures/result_3.png> <
+./figures/result_4.png> <./figures/result_5.png>] (./documentation.aux)
 
 LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 4769 strings out of 492982
- 74407 string characters out of 6134896
- 157748 words of memory out of 5000000
- 8268 multiletter control sequences out of 15000+600000
- 35646 words of font info for 66 fonts, out of 8000000 for 9000
+ 5012 strings out of 492982
+ 77707 string characters out of 6134896
+ 175971 words of memory out of 5000000
+ 8492 multiletter control sequences out of 15000+600000
+ 39055 words of font info for 75 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 41i,9n,27p,1894b,240s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 41i,9n,27p,2347b,240s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/share/texliv
 e/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texlive/texm
 f-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-dist
@@ -750,14 +793,15 @@ f-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-dist
 type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/p
 ublic/amsfonts/cm/cmr7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/am
 sfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts
-/cm/cmsy7.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmb8a.pfb><
-/usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmbi8a.pfb></usr/share/tex
-live/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/share/texlive/texmf-dist
-/fonts/type1/urw/times/utmri8a.pfb>
-Output written on documentation.pdf (3 pages, 2853054 bytes).
+/cm/cmsy7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cms
+y8.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/sh
+are/texlive/texmf-dist/fonts/type1/urw/times/utmbi8a.pfb></usr/share/texlive/te
+xmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/share/texlive/texmf-dist/fonts/
+type1/urw/times/utmri8a.pfb>
+Output written on documentation.pdf (4 pages, 2894686 bytes).
 PDF statistics:
- 77 PDF objects out of 1000 (max. 8388607)
- 43 compressed objects within 1 object stream
+ 85 PDF objects out of 1000 (max. 8388607)
+ 48 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
- 56 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 61 words of extra memory for PDF output out of 10000 (max. 10000000)
 

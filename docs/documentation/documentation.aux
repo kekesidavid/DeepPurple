@@ -2,15 +2,21 @@
 \catcode \string ``=12
 \citation{nvidia_paper}
 \citation{pconv_keras}
-\citation{dataset}
 \@writefile{toc}{\select@language{english} \contentsline {section}{\numberline {I}Introduction}{1}}
-\@writefile{toc}{\select@language{english} \contentsline {section}{\numberline {II}Data acquisition and preparation}{1}}
-\@writefile{lof}{\select@language{english} \contentsline {figure}{\numberline {1}{\ignorespaces The original image with bounding box (red) and the minimal square (green) and the resulting image with the applied mask}}{2}}
-\newlabel{fig:Preparation}{{1}{2}}
-\@writefile{toc}{\select@language{english} \contentsline {section}{\numberline {III}Initial method}{2}}
-\@writefile{toc}{\select@language{english} \contentsline {section}{\numberline {IV}Partial convolution}{2}}
-\@writefile{toc}{\select@language{english} \contentsline {section}{\numberline {V}Partial Convolution as Padding}{2}}
-\@writefile{toc}{\select@language{english} \contentsline {section}{\numberline {VI}Partial Convolution Substituting Convolution}{2}}
+\@writefile{toc}{\select@language{english} \contentsline {section}{\numberline {II}Initial method}{1}}
+\@writefile{toc}{\select@language{english} \contentsline {section}{\numberline {III}System design}{2}}
+\@writefile{toc}{\select@language{english} \contentsline {subsection}{\numberline {\unhbox \voidb@x \hbox {III-A}}Partial convolution}{2}}
+\@writefile{toc}{\select@language{english} \contentsline {subsection}{\numberline {\unhbox \voidb@x \hbox {III-B}}Partial Convolution as Padding}{2}}
+\@writefile{toc}{\select@language{english} \contentsline {subsection}{\numberline {\unhbox \voidb@x \hbox {III-C}}Model}{2}}
+\@writefile{lot}{\select@language{english} \contentsline {table}{\numberline {I}{\ignorespaces PConv is defined as a partial convolutional layer with the specified filter size, stride and number of filters. PConv1-8 are in encoder stage, whereas PConv9-16 are in decoder stage. The BatchNorm column indicates whether PConv is followed by a Batch Normalization layer. The Nonlinearity column shows whether and what nonlinearity layer is used (following the BatchNorm if BatchNorm is used). Skip links are shown using Concat$*$, which concatenate the previous nearest neighbor upsampled results with the corresponding mentioned PConv\# results from the encoder stage.}}{2}}
+\@writefile{toc}{\select@language{english} \contentsline {subsection}{\numberline {\unhbox \voidb@x \hbox {III-D}}Partial Convolution Substituting Convolution}{2}}
+\citation{dataset}
+\@writefile{toc}{\select@language{english} \contentsline {section}{\numberline {IV}Data acquisition and preparation}{3}}
+\@writefile{lof}{\select@language{english} \contentsline {figure}{\numberline {1}{\ignorespaces The original image with bounding box (red) and the minimal square (green) and the resulting image with the applied mask}}{3}}
+\newlabel{fig:Preparation}{{1}{3}}
+\@writefile{toc}{\select@language{english} \contentsline {section}{\numberline {V}Training the network}{3}}
+\@writefile{lof}{\select@language{english} \contentsline {figure}{\numberline {2}{\ignorespaces The change of loss through the training process. The blue line denotes the point where we changed the applied learning rate}}{3}}
+\citation{nvidia_paper}
 \bibcite{dataset}{1}
 \bibcite{nvidia_paper}{2}
 \bibcite{pconv_keras}{3}
@@ -19,5 +25,6 @@
 \bibcite{}{6}
 \bibcite{}{7}
 \bibcite{}{8}
-\@writefile{toc}{\select@language{english} \contentsline {section}{\numberline {VII}Results}{3}}
-\@writefile{toc}{\select@language{english} \contentsline {section}{References}{3}}
+\@writefile{toc}{\select@language{english} \contentsline {section}{\numberline {VI}Results}{4}}
+\@writefile{toc}{\select@language{english} \contentsline {section}{\numberline {VII}Summary}{4}}
+\@writefile{toc}{\select@language{english} \contentsline {section}{References}{4}}
