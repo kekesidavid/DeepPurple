@@ -57,6 +57,24 @@ natural looking content.
     Majd a ```model.fit_generator``` kezdetű cellát a tanításhoz 50-60 epoch hosszan,
     0.00005 LearningRate mellett.
 	
+	#### Predictions
+    ```sh
+    #Load trained model
+    model = PConvUnet(img_rows=256, img_cols=256)
+    model.load("./data/log/weights/weights.95-0.90.h5",train_bn=True,lr=0.00015)
+    ```
+    Futtassuk a fenti kódot **ModelCheckpoint** betöltéséhez az előzőekhez hasonlóan!
+    Futtassuk az utolsó cellát a predikciók generálásához!
+    A generált képek *a data/log/test_samples* mappába kerülnek.
+	
+	
+	
 ## Last Checkpoint
 A teljes training elvégzését követően a hálózatunk súlyai az alábbi linken elérhető fájlban találhatóak:
 [weights download](https://drive.google.com/file/d/1c4qXxUBBKn4dqwr7T9zLfotWkv5BJWoL/view)
+
+## Results
+![R1](https://github.com/kekesidavid/DeepPurple/blob/master/docs/images/r1.png)
+![R2](https://github.com/kekesidavid/DeepPurple/blob/master/docs/images/r2.png)
+![R3](https://github.com/kekesidavid/DeepPurple/blob/master/docs/images/r3.png)
+![R4](https://github.com/kekesidavid/DeepPurple/blob/master/docs/images/r4.png)
